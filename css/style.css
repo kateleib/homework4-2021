@@ -39,16 +39,20 @@ body{
 h1{
   color: #c12258;
   font-size: 2em;
+  text-align: center;
+  line-height: 2;
 
   /*Req 2*/
 }
 
 p{
-  
+  padding-top: 15px;
 }
 
 a{
-  
+  font-size: 16px;
+  color:#C12258;
+  text-decoration-style: wavy;
 }
 
 /*Req 5*/
