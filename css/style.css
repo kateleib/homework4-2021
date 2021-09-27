@@ -51,7 +51,7 @@ p{
 
 a{
   font-size: 16px;
-  color:#C12258;
+  color:#C12258; /* what */
   text-decoration-style: wavy;
 }
 
@@ -84,7 +84,7 @@ td{
 }
 
 .rowhead{
-
+  border: 2px #000000; /* what */
 }
 
 
@@ -100,11 +100,18 @@ thead tr:first-child th:first-child{}
 
 /*Add selectors and rules here*/
 
-
+tr:nth-child(odd) {
+  background: transparent
+}
+tr:nth-child(even) {
+  background: #D1D1D1
+}
 
 footer{
   width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  min-height: 75px;
+  width: 100%
 }
