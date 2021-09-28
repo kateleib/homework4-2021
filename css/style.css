@@ -110,11 +110,11 @@ thead tr:first-child th:last-child{
 }
 
 tbody:last-child td:first-child{
-  border-bottom-left-radius: 10px; 
+  border-bottom-left-radius: 50px; 
 }
 
 tbody:last-child td:last-child{ 
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 50px;
 }
 
 tr:nth-child(odd) {
