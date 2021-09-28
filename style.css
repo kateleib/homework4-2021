@@ -37,42 +37,61 @@ body{
 }
 
 h1{
-  color: #c12258;
+  color: #B21F50;
   font-size: 2em;
+  text-align: center;
+  line-height: 2;
 
   /*Req 2*/
 }
 
 p{
-  
+  padding-top: 15px;
 }
 
 a{
-  
+  font-size: 16px;
+  color:#C12258; /* what */
+  text-decoration-style: wavy;
 }
 
 /*Req 5*/
 /*Add selector and rule here*/
 
+*:focus{
+  border-width: 3px;
+  border-style: dashed;
+  border-color: #417243;
+}
+
 
 
 td{
-  
+  text-align: center;
+  border-top: 2px #000000;
+  padding: 10px;
 }
 
 
 .colhead{
   color: #FFFFFF;
-
+  min-width: 125px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: center;
+  text-transform: uppercase;
+  background-color: #7e0825;
 }
 
 .rowhead{
-
+  border: 2px #000000; /* what */
 }
 
 
 table{
     border: 5px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* I gave you the selector, but not the property-value pair. 
@@ -81,11 +100,18 @@ thead tr:first-child th:first-child{}
 
 /*Add selectors and rules here*/
 
-
+tr:nth-child(odd) {
+  background: transparent
+}
+tr:nth-child(even) {
+  background: #D1D1D1
+}
 
 footer{
   width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  min-height: 75px;
+  width: 100%
 }
