@@ -133,6 +133,8 @@ tr:hover {
 
 footer{
   width:100%;
+  bottom: 0px;
+  left: 0px;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
