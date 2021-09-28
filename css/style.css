@@ -81,6 +81,8 @@ td{
   vertical-align: center;
   text-transform: uppercase;
   background-color: #7e0825;
+  border-right: 2px #000000;
+
 }
 
 .rowhead{
