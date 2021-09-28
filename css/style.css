@@ -90,6 +90,7 @@ td{
 
 table{
     border: 5px solid #000000;
+    border-radius: 50px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -105,6 +106,10 @@ tr:nth-child(odd) {
 }
 tr:nth-child(even) {
   background: #D1D1D1
+}
+
+tr:hover {
+  background-color: rgba(126, 8, 37, .25);
 }
 
 footer{
