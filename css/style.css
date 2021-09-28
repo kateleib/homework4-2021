@@ -69,6 +69,7 @@ a{
 td{
   text-align: center;
   border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
   padding: 10px;
 }
 
@@ -81,7 +82,9 @@ td{
   vertical-align: center;
   text-transform: uppercase;
   background-color: #7e0825;
-  border-right: 2px #000000;
+  /*border-right: 2px #000000; */
+  border-top: 2px solid #000000;
+  
 
 }
 
