@@ -81,13 +81,15 @@ td{
   vertical-align: center;
   text-transform: uppercase;
   background-color: #7e0825;
-  border-top: 2px solid #000000;
+  /*border-top: 2px solid #000000; */
 
 
 }
 
 .rowhead{
-  border: 2px #000000; /* what */
+  border-top: 2px #000000; /* what */
+  border-right: 2px solid  #000000;
+
 }
 
 
@@ -134,10 +136,10 @@ tr:hover {
 footer{
   width:100%;
   bottom: 0px;
-  left: 0px;
+  margin-left: 0;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute;
+  position: fixed;
 }
