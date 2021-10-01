@@ -32,6 +32,7 @@ body{
   background-position: center;
   font-family: 'Andika', sans-serif;
   background-image: url('../images/pigeon-background.JPEG');
+  background-repeat:no-repeat;
   background-color: #DDDDDD;
   /*Req 1*/
 }
@@ -98,6 +99,8 @@ table{
     border-radius: 50px;
     margin-left: auto;
     margin-right: auto;
+    border-spacing: 0;
+    border-collapse: separate;
 }
 
 /* I gave you the selector, but not the property-value pair. 
